@@ -7,8 +7,18 @@ public class Main {
         ColorPoint point4 = new ColorPoint(0,4,30,2,0);
         ColorPoint2 point5 = new ColorPoint2(0,4,30,0,0);
 
-        System.out.println(point3.hashCode());
-        System.out.println(point4.hashCode());
+        // System.out.println(point1.hashCode());
+        // System.out.println(point4.hashCode());
+
+        Point pointCopy1 = new Point(point1);
+        // Point pointCopy1 = point1.clone();
+        
+        System.out.println(pointCopy1);
+        System.out.println(point1.hashCode());
+        System.out.println(point1);
+        System.out.println(pointCopy1.hashCode());
+        
+        
         // System.out.println(point1);
         // System.out.println(point5);
         // if (point1.equals(point5)){

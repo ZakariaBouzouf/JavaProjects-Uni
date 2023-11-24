@@ -1,4 +1,4 @@
-public class Point {
+public class Point implements Cloneable {
     protected int x,y;
 
     public Point(int x,int y){
@@ -41,5 +41,14 @@ public class Point {
         int result = Integer.hashCode(x);
         result = 31 * result + Integer.hashCode(y);
         return result;
+    }
+    //Cloneable
+    @Override
+    public Point clone(){
+        try{
+        return (Point) super.clone();
+        }catch (CloneNotSupportedException e){
+            throw new AssertionError();
+        }
     }
 }

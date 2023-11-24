@@ -8,6 +8,10 @@ public class ColorPoint2 {
             color = new Color((byte)red,(byte)green,(byte)blue);
         }
     }
+    public ColorPoint2(ColorPoint2 colorPoint){
+        point = colorPoint.point;
+        color = colorPoint.color;
+    }
 
     @Override
     public boolean equals(Object o){

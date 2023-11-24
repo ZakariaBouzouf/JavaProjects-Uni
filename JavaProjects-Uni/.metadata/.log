@@ -1,0 +1,330 @@
+!SESSION 2023-11-24 01:32:58.766 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data JavaProjects-Uni
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:00.098
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:00.331
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:00.366
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:00.368
+!MESSAGE Initializing Java Language Server 1.29.0.202310261436
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:00.370
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.223
+!MESSAGE ProjectRegistryRefreshJob finished 853ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.276
+!MESSAGE Started org.eclipse.buildship.core 53ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.295
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.295
+!MESSAGE Non-Static Commands: [java.project.import, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.315
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.331
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.337
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:01.776
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:02.194
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:03.053
+!MESSAGE Workspace initialized in 1738ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:03.083
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:03.092
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:03.108
+!MESSAGE Cannot resolve 'C:\Users\Administrator\formatter.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:03.882
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 01:33:04.040
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:04.063
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:04.269
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:04.912
+!MESSAGE begin problem for /Color.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:04.915
+!MESSAGE 1 problems reported for /Color.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:04.917
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:21.417
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:21.846
+!MESSAGE begin problem for /ColorPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:21.846
+!MESSAGE 1 problems reported for /ColorPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:21.849
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:24.444
+!MESSAGE Clearing problems for /Color.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:28.079
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:28.137
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:39.719
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:39.775
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:58.812
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:33:58.825
+!MESSAGE >> exit
+!SESSION 2023-11-24 01:34:07.055 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data JavaProjects-Uni
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-24 01:34:07.976
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:08.735
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.225
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.308
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.320
+!MESSAGE Initializing Java Language Server 1.29.0.202310261436
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.322
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.329
+!MESSAGE ProjectRegistryRefreshJob finished 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.486
+!MESSAGE Started org.eclipse.buildship.core 157ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.609
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.609
+!MESSAGE Non-Static Commands: [java.project.import, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:09.686
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.492
+!MESSAGE RepositoryRegistryUpdateJob finished 621ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.614
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.656
+!MESSAGE Workspace initialized in 786ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.677
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.682
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:10.693
+!MESSAGE Cannot resolve 'C:\Users\Administrator\formatter.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 01:34:11.485
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:11.490
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:11.496
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:11.704
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:12.339
+!MESSAGE begin problem for /Person.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:12.342
+!MESSAGE 1 problems reported for /Person.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:12.344
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:18.681
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:19.100
+!MESSAGE begin problem for /PersonComparatorByAge.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:19.102
+!MESSAGE 1 problems reported for /PersonComparatorByAge.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:19.102
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:32.885
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:33.311
+!MESSAGE begin problem for /Person.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:33.311
+!MESSAGE 1 problems reported for /Person.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:33.346
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:33.346
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:34:33.347
+!MESSAGE Validated 2. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:35:52.166
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:35:52.173
+!MESSAGE >> exit
+!SESSION 2023-11-24 01:36:28.042 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data JavaProjects-Uni
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-24 01:36:28.864
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:29.552
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:29.908
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.035
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.039
+!MESSAGE Initializing Java Language Server 1.29.0.202310261436
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.041
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.045
+!MESSAGE ProjectRegistryRefreshJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.180
+!MESSAGE Started org.eclipse.buildship.core 133ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.271
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.274
+!MESSAGE Non-Static Commands: [java.project.import, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:30.347
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.330
+!MESSAGE RepositoryRegistryUpdateJob finished 707ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.479
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.526
+!MESSAGE Workspace initialized in 903ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.547
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.550
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:31.562
+!MESSAGE Cannot resolve 'C:\Users\Administrator\formatter.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 01:36:31.896
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.090
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.381
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.401
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.716
+!MESSAGE begin problem for /Color.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.720
+!MESSAGE 1 problems reported for /Color.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:32.722
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.462
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.872
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.872
+!MESSAGE The static field CounterPoint.count should be accessed in a static way is of type NonStaticAccessToStaticField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.872
+!MESSAGE The static field CounterPoint.count should be accessed in a static way is of type NonStaticAccessToStaticField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.872
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 01:36:35.872
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 10:55:26.951
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 10:55:26.980
+!MESSAGE >> exit
