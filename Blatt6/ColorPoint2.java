@@ -2,7 +2,7 @@ public class ColorPoint2 {
     private Point point;
     private Color color;
 
-    public ColorPoint2(int x,int y ,int red , int green, int blue){
+   public ColorPoint2(int x,int y ,int red , int green, int blue){
         this.point = new Point(x,y);
         if (red>=0 && red<=255 && green>=0 && green <= 255 && blue >= 0 && blue<=255){
             color = new Color((byte)red,(byte)green,(byte)blue);

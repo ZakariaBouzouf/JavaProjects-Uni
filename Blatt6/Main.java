@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         CounterPoint counterPoint = new CounterPoint(0,0);

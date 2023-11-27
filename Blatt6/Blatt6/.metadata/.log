@@ -7418,3 +7418,1002 @@ Command-line arguments:  -data Blatt6
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 12:18:59.564
 !MESSAGE Validated 4. Took 31 ms
+!SESSION 2023-11-24 17:40:47.391 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data Blatt6
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-24 17:40:48.229
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:48.859
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.073
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.119
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.122
+!MESSAGE Initializing Java Language Server 1.29.0.202310261436
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.123
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.127
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.167
+!MESSAGE Started org.eclipse.buildship.core 40ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.202
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.202
+!MESSAGE Non-Static Commands: [java.project.import, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:49.241
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.038
+!MESSAGE RepositoryRegistryUpdateJob finished 810ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.589
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.655
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.707
+!MESSAGE Workspace initialized in 1478ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.723
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.732
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:50.741
+!MESSAGE Cannot resolve 'C:\Users\Administrator\formatter.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:51.545
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 17:40:51.805
+!MESSAGE Error occured while building workspace. Details: 
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 1
+ message: The method equals(Object) of type ColorPoint must override or implement a supertype method; code: 67109498; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 14
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: x cannot be resolved or is not a field; code: 33554502; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: y cannot be resolved or is not a field; code: 33554502; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 22
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 22
+ message: The method hashCode() of type ColorPoint must override or implement a supertype method; code: 67109498; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 26
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 27
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 28
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/CounterPoint.java; line: 1
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 6
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 12
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 12
+ message: ColorPoint cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 19
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 25
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 25
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 2
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 6
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 17:40:51.825
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:51.856
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:51.896
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:51.917
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:52.514
+!MESSAGE begin problem for /ColorPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:52.518
+!MESSAGE 11 problems reported for /ColorPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:52.556
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:52.558
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:40:52.561
+!MESSAGE Validated 2. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:04.021
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:04.032
+!MESSAGE >> exit
+!SESSION 2023-11-24 17:42:13.081 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data Blatt6
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-24 17:42:13.943
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.555
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.774
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.820
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.823
+!MESSAGE Initializing Java Language Server 1.29.0.202310261436
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.824
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.828
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.865
+!MESSAGE Started org.eclipse.buildship.core 37ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.894
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.895
+!MESSAGE Non-Static Commands: [java.project.import, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:14.926
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:15.756
+!MESSAGE RepositoryRegistryUpdateJob finished 838ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:16.279
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:16.343
+!MESSAGE Workspace initialized in 1425ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:16.369
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:16.372
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:16.387
+!MESSAGE Cannot resolve 'C:\Users\Administrator\formatter.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 17:42:16.600
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.006
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 17:42:17.327
+!MESSAGE Error occured while building workspace. Details: 
+ message: x cannot be resolved or is not a field; code: 33554502; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: y cannot be resolved or is not a field; code: 33554502; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 22
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 22
+ message: The method hashCode() of type ColorPoint must override or implement a supertype method; code: 67109498; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 26
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 27
+ message: y cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 28
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 1
+ message: The method equals(Object) of type ColorPoint must override or implement a supertype method; code: 67109498; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 14
+ message: x cannot be resolved to a variable; code: 33554515; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint.java; line: 18
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/CounterPoint.java; line: 1
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 25
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 25
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 2
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 6
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 6
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 12
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 12
+ message: ColorPoint cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 19
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+ message: Point cannot be resolved to a type; code: 16777218; resource: C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java; line: 21
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.351
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.388
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.519
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.521
+!MESSAGE Reconciled 2. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:17.537
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:18.148
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:18.155
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:18.169
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:18.169
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:18.172
+!MESSAGE Validated 2. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:30.976
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:31.462
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:31.462
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:42:31.462
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.455
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.878
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.878
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.899
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.900
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:31.900
+!MESSAGE Validated 2. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:40.469
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:40.685
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.110
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.110
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.124
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.124
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.139
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.139
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:43:41.139
+!MESSAGE Validated 3. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:02.681
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.117
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.117
+!MESSAGE 13 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.122
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.122
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.122
+!MESSAGE Validated 2. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:03.970
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.016
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.394
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.394
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.409
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.409
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.424
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.425
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.425
+!MESSAGE Validated 3. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.637
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.675
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:04.811
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.286
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.286
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.294
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.295
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.295
+!MESSAGE Validated 2. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.780
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:05.943
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.370
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.370
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.383
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.384
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.393
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.393
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:06.393
+!MESSAGE Validated 3. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.246
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.720
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.720
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.726
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.726
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:21.726
+!MESSAGE Validated 2. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:34.507
+!MESSAGE Clearing problems for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:34.545
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:34.580
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.053
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.054
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.064
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.065
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.077
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.078
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:35.079
+!MESSAGE Validated 3. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:57.652
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.069
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.069
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.082
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.086
+!MESSAGE 11 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.086
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.086
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:58.086
+!MESSAGE Validated 3. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:59.157
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:59.195
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:59.618
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:59.623
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:44:59.847
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.313
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.313
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.324
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.324
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.331
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.331
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.340
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.340
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.349
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.349
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.349
+!MESSAGE Validated 5. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:00.981
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:01.071
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:01.496
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:01.496
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:01.496
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:36.950
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.363
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.364
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.373
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.374
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.381
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.381
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.391
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.392
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:37.392
+!MESSAGE Validated 4. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:51.092
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:51.468
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:51.848
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:52.259
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:52.259
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:52.259
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:52.503
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:52.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.065
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.065
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.070
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.070
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.080
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.080
+!MESSAGE 10 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.085
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.085
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.094
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.094
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:53.094
+!MESSAGE Validated 5. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:54.533
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:54.947
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:54.947
+!MESSAGE 11 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:54.953
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.123
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.594
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.594
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.599
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.604
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.606
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.606
+!MESSAGE 11 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.614
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.614
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.624
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.629
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:55.629
+!MESSAGE Validated 5. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:59.340
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:45:59.670
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:00.013
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:00.169
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:00.633
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:00.642
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:00.642
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.117
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.538
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.538
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.543
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.543
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.553
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.553
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.553
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.553
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.568
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.568
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:01.568
+!MESSAGE Validated 5. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:02.839
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:03.306
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:03.306
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:03.316
+!MESSAGE Validated 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:03.982
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.450
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.450
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.461
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.461
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.468
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.468
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.473
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.473
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.488
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.488
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:04.488
+!MESSAGE Validated 5. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:06.631
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.054
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.054
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.054
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.219
+!MESSAGE Clearing problems for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.228
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.697
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.697
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.706
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.706
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.712
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.712
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.719
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.719
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.732
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.732
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.732
+!MESSAGE Validated 5. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:07.875
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:08.302
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:08.302
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:08.303
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.284
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.703
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.703
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.711
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.711
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.717
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.717
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.721
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.721
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.732
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.734
+!MESSAGE 2 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:14.734
+!MESSAGE Validated 5. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:16.080
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:16.541
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:16.541
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:16.543
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.500
+!MESSAGE Clearing problems for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.529
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.559
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.976
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.977
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.983
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.984
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.991
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.991
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.996
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:26.997
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:27.005
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:27.006
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:46:27.006
+!MESSAGE Validated 5. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:20.855
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:21.325
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:21.325
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:21.335
+!MESSAGE begin problem for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:21.336
+!MESSAGE 1 problems reported for /Ponkt.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-24 17:47:21.336
+!MESSAGE [Working copy] Ponkt.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] Ponkt.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:358)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:986)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:325)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:288)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:734)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-11-24 17:47:21.338
+!MESSAGE [Working copy] Ponkt.java [in <default> [in src [in jdt.ls-java-project]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:21.338
+!MESSAGE Validated 2. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.549
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.951
+!MESSAGE begin problem for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.951
+!MESSAGE 1 problems reported for /RgbExcetion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.962
+!MESSAGE begin problem for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.962
+!MESSAGE 12 problems reported for /ColorPoint2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.962
+!MESSAGE begin problem for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.967
+!MESSAGE 3 problems reported for /CounterPoint.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.973
+!MESSAGE begin problem for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.973
+!MESSAGE 1 problems reported for /Point.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 17:47:35.973
+!MESSAGE Validated 4. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 18:03:53.400
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-24 18:03:53.414
+!MESSAGE >> exit

@@ -16,11 +16,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/ColorPoint2.java</name>
-			<type>1</type>
-			<location>C:/Users/Administrator/JavaProjects-Uni/Blatt6/ColorPoint2.java</location>
-		</link>
-		<link>
 			<name>src/Main.java</name>
 			<type>1</type>
 			<location>C:/Users/Administrator/JavaProjects-Uni/Blatt6/Main.java</location>
@@ -29,6 +24,11 @@
 			<name>src/Point.java</name>
 			<type>1</type>
 			<location>C:/Users/Administrator/JavaProjects-Uni/Blatt6/Point.java</location>
+		</link>
+		<link>
+			<name>src/RgbExcetion.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/JavaProjects-Uni/Blatt6/RgbExcetion.java</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
