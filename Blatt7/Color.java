@@ -4,8 +4,8 @@ public enum Color {
     ORANGE,
     WHITE;
 
-    public String toString(){
-        return String.format("%s",COLOR);
-    }
+    // public String toString(){
+    //     return String.format("%s",COLOR);
+    // }
 
 }

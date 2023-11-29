@@ -5,6 +5,7 @@ public class CounterPoint extends Point{
         count++;
     }
     // public CounterPoint(CounterPoint counterPoint){
+    //
     //     super(counterPoint.x,counterPoint.y);
     // }
     public void setCount(int count){

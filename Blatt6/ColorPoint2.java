@@ -1,5 +1,5 @@
 public class ColorPoint2 {
-    private Point point;
+    protected Point point;
     private Color color;
 
    public ColorPoint2(int x,int y ,int red , int green, int blue){
