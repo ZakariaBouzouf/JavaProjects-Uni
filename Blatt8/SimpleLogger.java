@@ -16,8 +16,6 @@ public class SimpleLogger implements Logger {
             case INFO:
                 System.err.println("Log Level: Info, The message: " + message);
                 break;
-
         }
-
     }
 }
