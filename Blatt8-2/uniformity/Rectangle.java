@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle implements Figure{
     protected int x,y,width,height;
 
     public Rectangle (int x, int y, int width, int height){
@@ -41,10 +41,14 @@ public class Rectangle {
     }
 
     public Double getSurface(){
-        return width * height;
+        return (double) width * height;
     }
+    @Override
     public void move(int x, int y){
         this.x = x;
         this.y = y;
+    }
+    public String toString(){
+        return String.format("X: %s, Y: %s, W: %s,H: %s.",x,y,width,height);
     }
 }

@@ -1,10 +1,10 @@
-public class Cirle {
+public class Circle implements Figure{
     protected int x,y,radius;
 
-    public Cirle (int x,int y,int radius){
+    public Circle (int x,int y,int radius){
         this.x = x;
         this.y = y;
-        this.radis = radius;
+        this.radius = radius;
     }
 
     public int getX() {
@@ -32,7 +32,7 @@ public class Cirle {
     }
 
     public Double getSurface(){
-        return 3.14 * radius * radius;
+        return (double) 3.14 * radius * radius;
     }
 
     public void move(int x, int y ){
