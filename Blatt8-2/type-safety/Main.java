@@ -7,14 +7,13 @@ public class Main {
         Circle cir1 = new Circle(0,0,2);
         Circle cir2 = new Circle(0,0,2);
 
-        Figure group = new GroupFigure();
+        GroupFigure group = new GroupFigure();
+            group.addFigure(rec1);
+            group.addFigure(rec2);
+            group.addFigure(rec3);
+            group.addFigure(cir1);
+            group.addFigure(cir2);
 
-        group.addFigure(rec1);
-        group.addFigure(rec2);
-        group.addFigure(rec3);
-        group.addFigure(cir1);
-        group.addFigure(cir2);
-        
         System.out.println(group.getSurface());
     }
 }

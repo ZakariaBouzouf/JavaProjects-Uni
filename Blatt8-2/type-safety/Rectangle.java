@@ -43,11 +43,11 @@ public class Rectangle implements Figure{
     public Double getSurface(){
         return (double) width * height;
     }
+    @Override
     public void move(int x, int y){
         this.x = x;
         this.y = y;
     }
-
     public String toString(){
         return String.format("X: %s, Y: %s, W: %s,H: %s.",x,y,width,height);
     }

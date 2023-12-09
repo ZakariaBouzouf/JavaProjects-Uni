@@ -35,6 +35,7 @@ public class Circle implements Figure{
         return (double) 3.14 * radius * radius;
     }
 
+    @Override
     public void move(int x, int y ){
         this.x = x;
         this.y = y;
