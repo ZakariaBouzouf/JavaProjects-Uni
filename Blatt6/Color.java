@@ -1,4 +1,6 @@
-public class Color {
+import java.io.Serializable;
+
+public class Color implements Serializable{
     private byte red,green,blue;
 
     public Color(byte red, byte green, byte blue){

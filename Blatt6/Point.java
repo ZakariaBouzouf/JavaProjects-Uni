@@ -1,4 +1,6 @@
-public class Point implements Cloneable {
+import java.io.Serializable;
+
+public class Point implements Cloneable,Serializable {
     protected int x,y;
 
     public Point(int x,int y){

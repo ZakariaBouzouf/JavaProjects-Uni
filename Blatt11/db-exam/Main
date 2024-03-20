@@ -1,0 +1,20 @@
+import java.sql.SQLException;
+
+import exo1.Bank;
+
+public class Main {
+    public static void main(String[] args) {
+      Bank bank = new Bank();
+      try {
+          bank.initConnection();
+          // bank.initTable();
+          // bank.initInitialData();
+          // bank.printDatabase();
+
+      } catch (SQLException e) {
+          throw new RuntimeException(e);
+      } finally {
+          bank.tryCloseConnection();
+      }
+  }
+}

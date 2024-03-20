@@ -1,0 +1,33 @@
+public class Main2 {
+  public static void main(String[] args) {
+    var thread = new Thread(() -> {
+      int a, b = 0, x;
+      System.out.println("Threa1 started.");
+      try {
+        // Thread.sleep(1000);
+        a = 1;
+        x = b;
+        System.out.println("Threa1 done.");
+      } catch (Exception e) {
+        // TODO: handle exception
+      }
+    });
+    Thread thread2 = new Thread(new Runnable() {
+      public void run() {
+        int a = 0, x=0, y, b;
+        System.out.println("Threa2 started.");
+        b = 1;
+        y = a;
+      }
+    });
+    thread2.start();
+    thread.start();
+    System.out.println("(" + x +", " + y + ")");
+    try {
+      thread.join();
+      thread2.join();
+    } catch (Exception e) {
+      // TODO: handle exception
+    }
+  }
+}

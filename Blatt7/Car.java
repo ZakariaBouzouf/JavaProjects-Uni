@@ -1,12 +1,12 @@
 import java.util.List;
 
-public class Car {
+public class Car extends Vehicule {
     protected String model ;
     protected Engine engine;
     protected List<Seat> seats;
     protected List<Wheel> wheels;
 
-    public Car (int Id,String model, Engine engine, List<Seat> seats, List<Wheel> wheels){
+    public Car (int id,String model, Engine engine, List<Seat> seats, List<Wheel> wheels){
         super(id);
         this.model = model;
         this.engine = engine;

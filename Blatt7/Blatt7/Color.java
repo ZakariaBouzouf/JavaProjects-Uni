@@ -1,11 +1,12 @@
 public enum Color {
-    BLACK,
-    RED,
-    ORANGE,
-    WHITE;
+  BLACK,
+  RED,
+  ORANGE,
+  BLUE,
+  WHITE;
 
-    // public String toString(){
-    //     return String.format("%s",COLOR);
-    // }
+  // public String toString(){
+  // return String.format("%s",COLOR);
+  // }
 
 }
